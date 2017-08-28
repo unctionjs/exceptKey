@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/exceptkey",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes a key and a keyed functor, returning the keyed functor without the key given",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/exceptKey#readme",
+  "repository": "github:unctionjs/exceptKey",
+  "bugs": "https://github.com/unctionjs/exceptKey/issues",
   "main": "transpiled/index.js",
   "nyc": {
     "require": [
@@ -58,6 +58,11 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "ramda": "0.24.1"
+    "@unction/always": "2.0.0",
+    "@unction/attach": "3.0.0",
+    "@unction/equals": "1.0.0",
+    "@unction/fresh": "2.1.0",
+    "@unction/ifthenelse": "2.0.0",
+    "@unction/reducewithvaluekey": "4.1.0"
   }
 }
