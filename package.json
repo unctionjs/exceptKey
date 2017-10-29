@@ -59,10 +59,10 @@
   "dependencies": {
     "@unction/always": "2.5.0",
     "@unction/attach": "3.8.0",
-    "@unction/equals": "1.23.0",
+    "@unction/equals": "1.24.0",
     "@unction/fresh": "3.6.0",
     "@unction/ifthenelse": "2.5.0",
-    "@unction/reducewithvaluekey": "4.24.0"
+    "@unction/reducewithvaluekey": "4.25.0"
   },
   "files": [
     "transpiled/index.js"
