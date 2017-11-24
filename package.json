@@ -58,7 +58,7 @@
   },
   "dependencies": {
     "@unction/always": "2.8.0",
-    "@unction/attach": "3.13.0",
+    "@unction/attach": "3.14.0",
     "@unction/equals": "1.49.0",
     "@unction/fresh": "3.11.0",
     "@unction/ifthenelse": "2.8.0",
