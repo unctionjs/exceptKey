@@ -62,7 +62,7 @@
     "@unction/equals": "1.49.0",
     "@unction/fresh": "3.11.0",
     "@unction/ifthenelse": "2.8.0",
-    "@unction/reducewithvaluekey": "4.40.0"
+    "@unction/reducewithvaluekey": "5.0.0"
   },
   "files": [
     "transpiled/index.js"
