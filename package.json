@@ -1,6 +1,6 @@
 {
   "name": "@unction/exceptkey",
-  "version": "1.54.0",
+  "version": "1.55.0",
   "description": "Takes a key and a keyed functor, returning the keyed functor without the key given",
   "keywords": [
     "unction",
