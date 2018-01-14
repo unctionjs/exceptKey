@@ -61,7 +61,7 @@
   "dependencies": {
     "@unction/always": "3.0.0",
     "@unction/attach": "5.0.0",
-    "@unction/equals": "5.0.0",
+    "@unction/equals": "6.0.0",
     "@unction/fresh": "6.0.0",
     "@unction/ifthenelse": "3.0.0",
     "@unction/reducewithvaluekey": "8.0.0"
