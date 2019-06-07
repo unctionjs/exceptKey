@@ -56,12 +56,12 @@
     "tap": "12.6.1"
   },
   "dependencies": {
-    "@unction/always": "3.0.0",
-    "@unction/attach": "6.0.0",
-    "@unction/equals": "10.0.0",
-    "@unction/fresh": "7.0.0",
-    "@unction/ifthenelse": "3.0.0",
-    "@unction/reducewithvaluekey": "10.1.0"
+    "@unction/always": "4.0.0",
+    "@unction/attach": "7.1.0",
+    "@unction/equals": "11.1.0",
+    "@unction/fresh": "8.1.0",
+    "@unction/ifthenelse": "4.0.0",
+    "@unction/reducewithvaluekey": "11.1.0"
   },
   "files": [
     "index.js",
