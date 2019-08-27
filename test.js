@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import {test} from "tap"
 
-import exceptKey from "./index"
+import exceptKey from "./"
 
 test(({same, end}) => {
   same(
