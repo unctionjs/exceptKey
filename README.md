@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyType => KeyedFunctorType => KeyedFunctorType
+> B => KeyedEnumerableType<A, B> => KeyedEnumerableType<A, B>
 
 Takes a key and a keyed functor, returning the keyed functor without the key given.
 
