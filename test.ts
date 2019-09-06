@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import exceptKey from "./index.ts";
+import exceptKey from "./index";
 
 test(() => {
   expect(exceptKey("bbb")({
