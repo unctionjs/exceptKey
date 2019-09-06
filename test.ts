@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import exceptKey from "./index";
 
-test(() => {
+test("works", () => {
   expect(exceptKey("bbb")({
     aaa: "aaa",
     bbb: "bbb",
@@ -12,7 +12,7 @@ test(() => {
   })
 })
 
-test(() => {
+test("works", () => {
   expect(exceptKey(1)([
     "a",
     "b",
@@ -23,11 +23,11 @@ test(() => {
   ])
 })
 
-test(() => {
+test("works", () => {
   expect(exceptKey(1)("abc")).toEqual("ac")
 })
 
-test(() => {
+test("works", () => {
   expect(
     exceptKey("bbb")(new Map([["aaa", "aaa"], ["bbb", "bbb"], ["ccc", "ccc"]]))
   ).toEqual(new Map([["aaa", "aaa"], ["ccc", "ccc"]]))
