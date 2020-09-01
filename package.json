@@ -64,11 +64,11 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "@unction/always": "4.1.3",
-    "@unction/attach": "7.10.0",
-    "@unction/equals": "11.11.0",
-    "@unction/fresh": "8.9.1",
-    "@unction/ifthenelse": "4.1.3",
-    "@unction/reducewithvaluekey": "11.10.0"
+    "@unction/always": "^4.1.4",
+    "@unction/attach": "^7.11.0",
+    "@unction/equals": "^11.12.0",
+    "@unction/fresh": "^8.11.0",
+    "@unction/ifthenelse": "^4.1.4",
+    "@unction/reducewithvaluekey": "^11.11.0"
   }
 }
