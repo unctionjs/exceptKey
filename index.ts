@@ -4,7 +4,6 @@ import equals from "@unction/equals";
 import always from "@unction/always";
 import attach from "@unction/attach";
 import fresh from "@unction/fresh";
-import {KeyedEnumerableType} from "./types";
 
 export default function exceptKey<A, B> (key: B) {
   return function exceptKeyKey (keyedList: KeyedEnumerableType<A, B>): KeyedEnumerableType<A, B> {
