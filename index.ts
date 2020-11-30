@@ -6,9 +6,9 @@ import attach from "@unction/attach";
 import fresh from "@unction/fresh";
 
 export default function exceptKey<A, B> (key: B) {
-  return function exceptKeyKey (keyedList: KeyedEnumerableType<A, B>): KeyedEnumerableType<A, B> {
+  return function exceptKeyKey (keyedList: Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string): Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string {
     return reduceWithValueKey(
-      (accumulated: KeyedEnumerableType<A, B>) =>
+      (accumulated: Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string) =>
         (value: A) =>
           ifThenElse(
             equals(key)

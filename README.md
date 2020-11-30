@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> B => KeyedEnumerableType<A, B> => KeyedEnumerableType<A, B>
+> B => Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string => Array<A> | Set<A> | Record<string | number | symbol, B> | Map<B, A> | string
 
 Takes a key and a keyed functor, returning the keyed functor without the key given.
 
